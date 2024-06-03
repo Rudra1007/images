@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <title>Rudra Wankhede</title>
+
+<head>
+    <style>
+        .first-row {
+            background-color: #D9EDBF;
+            height: 10vh;
+            width: 50vw;
+            position: sticky;
+            top: 0%;
+
+        }
+
+        .second-row {
+            background-color: #FF9800;
+            height: 40vh;
+            width: 50vw;
+        }
+
+        .third-row {
+            background-color: #2C7865;
+            height: 40vh;
+        }
+
+        .fourth-row {
+            background-color: #90D26D;
+            height: 40vh;
+        }
+
+        .fifth-row {
+            background-color: #898121;
+            height: 10vh;
+            width: 50vw;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .main {
+            background-color: #2C7865;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        p:hover{
+            color: #FDFFAB;
+            font-size: x-large;
+            font-family: fantasy;
+            font-weight: bolder;
+        }
+        a:hover{
+            color: rgb(255, 132, 0);
+        }
+       
+        h1:hover{
+            font-family: fantasy;
+        }
+        .rudra-one:hover{
+          height: 250px;
+          width: 250px;
+          animation-name: img;
+          animation-duration: 3s;
+          
+        }
+        @keyframes img {
+            from {height: 200px; width: 200;}
+            to {height: 250px; width: 300;}
+        }
+        @keyframes rudra{
+            from  {height: 200; width: 200;}
+            to {height: 250px; width: 250px;}
+        }
+        .rudra{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            animation-name: rudra;
+            animation-duration: 3s;
+            
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <table>
+        <img src="" alt="">
+        <!-- first row -->
+        <tr>
+            <!-- first column -->
+            <td style="text-align: center;" class="first-row"><a href="#scroll-1">ABOUT</a></td>
+            <!-- second column -->
+            <td style="text-align: center;" class="first-row"><a href="#scroll-2">PROJECTS</a></td>
+            <!-- third column -->
+            <td style="text-align: center;" class="first-row"><a href="#scroll-3">EXPERIENCE</a></td>
+
+        </tr>
+        <!-- second row -->
+        <tr>
+            <td id="scroll-1" class="second-row" colspan="4">
+                <h1 style="transition: width 2s">Rudra Wankhede</h1>
+                <img class="rudra" src="./myimg.jpg" height="200" width="200" alt="">
+
+                <p>I AM 14 YEAR OLD BOY. BORN ON 10th JULY 2011. NOW I STUDY IN CLASS 8th CBSC AT ORCHID PUBLIC SCHOOL .
+                    <br>
+                    I LOVE TECHNOLOGY AND ANIMALS ESPECIALLY DOG . I AM A GOOD BOWLER AND DECENT BATTING.
+                </p>
+
+            </td>
+
+        </tr>
+        <!-- third row -->
+        <tr>
+            <td id="scroll-2" class="third-row" colspan="3">
+                <div class="main">
+                    <div><a href="./chess.html"><img src="./chess.jpg" height="150" width="150" class="rudra-one"></a></div>
+                    &nbsp &nbsp &nbsp<div><a href="./webs.html"><img class="rudra-one" src="./web.jpg" height="150" width="150"
+                                alt=""></a></div>
+                    &nbsp &nbsp &nbsp<div><a href="./allinone.html"><img class="rudra-one" src="./more.jpg" height="150" width="150"
+                                alt=""></div></a>
+
+
+                </div>
+            </td>
+        </tr>
+        <!-- fourth row -->
+        <tr>
+            <td id="scroll-3" class="fourth-row" colspan="4">
+                <img style="border-radius: 40%;" src="https://i.stack.imgur.com/uH0yh.png" height="200" width="200" alt="">
+                <img style="border-radius: 40%;" src="./circle-percentage-diagrams-60-ready-use-web-design-light-green-white-can-change-color_792347-188.avif" height="200" width="200" alt="">
+            </td>
+        </tr>
+        <!-- fifth row -->
+        <tr>
+            <td class="fifth-row"><a style="text-align: center;"
+                    href="https://join.skype.com/invite/tE4ib6Co3tq6">SKYPE</a></td>
+            <td class="fifth-row"><a style="text-align: center;"
+                    href="https://github.com/Rudra1007/rudra_full_stack_developer">Github ID</a></td>
+            <td class="fifth-row">blank</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
